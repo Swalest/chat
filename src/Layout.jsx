@@ -7,7 +7,8 @@ export const Layout = ({ children }) => {
     <div>
       <Navbar />
       <Sidebar />
-      {children}
+
+      <div className="ml-[256px] pt-[80px]">{children}</div>
     </div>
   );
 };
